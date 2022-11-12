@@ -73,7 +73,7 @@ The second phase focuses on the basics of JavaScript. The mentees are introduced
 The third phase focuses on building projects. The mentees will be expected to build 3 projects in 3 weeks.
 
 ## Week 1
-The mentees will be expected to build the [Sunnyside Agency Landing Page](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) challenge from [FrontEnd Mentor](https://www.frontendmentor.io/home).
+The mentees will be expected to build the [Sunnyside Agency Landing Page]([https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/wqzotbyfysz9pbfk9jus.jpg)) challenge from [FrontEnd Mentor](https://www.frontendmentor.io/home).
 
 ![Sunnyside Agency Landing Page](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/lvj0udxz21q6bicxkysz.jpg)
 
