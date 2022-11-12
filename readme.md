@@ -4,6 +4,7 @@
 # SpaceYaTech Mentorship Program
 
 This is our flagship mentorship program, the SpaceYaTech Mentorship Program. The program is designed to be flexible and is tailored to meet the needs of developers looking to learn JavaScript, CSS and HTML. 
+
 We employ a practical approach to our teaching process; we help mentees by building mini projects that allow them to put into practice what they learn, as we teach therotetical concepts of web development. This way, mentees get a good grasp of what they learn and can quickly apply them in their day-to-day web development tasks and achieve their career goals.We have a team of mentors who are experts in their fields and are willing to share their knowledge and experience with mentees.
 
 ## Table of contents
