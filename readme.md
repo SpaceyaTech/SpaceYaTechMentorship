@@ -30,7 +30,7 @@ This is the why behind the mentorship program. A way to give back to the communi
 
 ## The Process
 
-- [x] [Create a curriculum for the program](https://github.com/)
+- [x] Create a curriculum for the program
 - [x] Onboard the mentors.
 - [x] Onboard the mentees.
 - [x] Mentees are matched with mentors.
