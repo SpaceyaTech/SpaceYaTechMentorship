@@ -13,7 +13,7 @@ We take a step by step approach to help mentees achieve their goals, by building
 - [Who were we targeting](#who-were-we-targeting)
 - [Selecting the mentors](#how-did-we-select-the-mentors)
 - [Selecting the mentees](#how-did-we-select-the-mentees)
-- [The Process](#the-process)
+- [The Curriculum](#the-curriculum)
 
 
 ## Why a Mentorship Program?
