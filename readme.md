@@ -61,8 +61,8 @@ For this cohort, we onboarded 6 mentors. We will be increasing the number of men
 The [Curriculum](https://www.canva.com/design/DAFNTnoaMm4/0hB5vFYa7vdY_hfA-hRM9Q/view?utm_content=DAFNTnoaMm4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) focuses on the basics of web development. The curriculum is divided into 3 phases:
 
 - [x] Phase 1: HTML & CSS
-- [] Phase 2: JavaScript
-- [] Phase 3: Build projects
+- []  Phase 2: JavaScript
+- []  Phase 3: Build projects
 
 
 ## Phase 1: HTML & CSS
@@ -74,7 +74,7 @@ The second phase focuses on the basics of JavaScript. The mentees are introduced
 The third phase focuses on building projects. The mentees will be expected to build 3 projects in 3 weeks.
 
 ## Week 1
-The mentees will be expected to build the [Sunnyside Agency Landing Page](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef) challenge from [FrontEnd Mentor](https://www.frontendmentor.io/home).
+The mentees will be expected to build the [Sunnyside Agency Landing Page]([https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/wqzotbyfysz9pbfk9jus.jpg)) challenge from [FrontEnd Mentor](https://www.frontendmentor.io/home).
 
 ![Sunnyside Agency Landing Page](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/lvj0udxz21q6bicxkysz.jpg)
 
