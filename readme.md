@@ -1,5 +1,7 @@
-# SpaceYaTech Mentorship Program
+
 ![Banner Image](./assets/banner.svg)
+
+# SpaceYaTech Mentorship Program
 
 We recently launched our flagship mentorship program, the SpaceYaTech Mentorship Program. The program is designed to be flexible and is tailored to meet the needs of the mentees. 
 We take a step by step approach to help mentees achieve their goals, by building mini projects that allow the mentees to put into practice what they learn. We have a team of mentors who are experts in their fields and are willing to share their knowledge and experience with mentees.
