@@ -68,9 +68,13 @@ The [Curriculum](https://www.canva.com/design/DAFNTnoaMm4/0hB5vFYa7vdY_hfA-hRM9Q
 
 
 ## Phase 1: HTML & CSS
-The first phase focuses on the basics of HTML & CSS. The mentees are introduced to the basics of HTML & CSS and are given a project to build. The project is the [QR Code Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) challenge from [FrontEnd Mentor](https://www.frontendmentor.io/home). 
+The first phase focuses on the basics of HTML & CSS. The mentees are introduced to the basics of HTML & CSS and are given a project to build. The project is the [QR Code Component](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) challenge from [FrontEnd Mentor](https://www.frontendmentor.io/home).
+
+![QR Code Component](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/lzfaukzhigbavv5sc26b.jpg)
 ## Phase 2: JavaScript
 The second phase focuses on the basics of JavaScript. The mentees are introduced to the basics of JavaScript and are given a project to build. The project is a simple [Expense Chart Component](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt) challenge from [FrontEnd Mentor](https://www.frontendmentor.io/home). 
+
+![Expense Chat Component](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/pbyfftwogzle4h5mhlb6.jpg)
 
 ## Phase 3: Build Projects
 The third phase focuses on building projects. The mentees will be expected to build 3 projects in 3 weeks.
