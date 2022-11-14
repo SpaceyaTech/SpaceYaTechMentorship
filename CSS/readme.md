@@ -113,6 +113,22 @@ Mobile first is a web design approach that prioritizes mobile users over desktop
 ![Media Queries](./assets/Targetting%20Screen%20Sized.svg)
 
 
+## Resources
+
+- [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+- [CSS Tricks](https://css-tricks.com/)
+
+- [W3Schools](https://www.w3schools.com/css/)
+
+- [CSS Zen Garden](http://www.csszengarden.com/)
+
+- [CSS Reference](https://cssreference.io/)
+
+- [CSS Diner](https://flukeout.github.io/)
+
+
+
 
 
 
