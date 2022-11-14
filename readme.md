@@ -3,8 +3,11 @@
 
 # SpaceYaTech Mentorship Program
 
-We recently launched our flagship mentorship program, the SpaceYaTech Mentorship Program. The program is designed to be flexible and is tailored to meet the needs of the mentees. 
-We take a step by step approach to help mentees achieve their goals, by building mini projects that allow the mentees to put into practice what they learn. We have a team of mentors who are experts in their fields and are willing to share their knowledge and experience with mentees.
+The SpaceYaTech Mentorship Program is our flagship mentorship program. The program is designed to be flexible and is tailored to meet the needs of developers looking to learn JavaScript, CSS and HTML. 
+
+We employ a practical approach to our teaching process; we help mentees by building mini projects that allow them to put into practice what they learn, as we teach therotetical concepts of web development. This way, mentees get a good grasp of what they learn and can quickly apply them in their day-to-day web development tasks and achieve their career goals.
+
+We have a team of mentors who are experts in their fields and are willing to share their knowledge and experience with mentees.
 
 ## Table of contents
 
@@ -13,7 +16,7 @@ We take a step by step approach to help mentees achieve their goals, by building
 - [Who were we targeting](#who-were-we-targeting)
 - [Selecting the mentors](#how-did-we-select-the-mentors)
 - [Selecting the mentees](#how-did-we-select-the-mentees)
-- [The Process](#the-process)
+- [The Curriculum](#the-curriculum)
 
 
 ## Why a Mentorship Program?
@@ -30,7 +33,7 @@ This is the why behind the mentorship program. A way to give back to the communi
 
 ## The Process
 
-- [x] [Create a curriculum for the program](https://github.com/)
+- [x] Create a curriculum for the program
 - [x] Onboard the mentors.
 - [x] Onboard the mentees.
 - [x] Mentees are matched with mentors.
@@ -63,8 +66,8 @@ For this cohort, we onboarded 6 mentors. We will be increasing the number of men
 The [Curriculum](https://www.canva.com/design/DAFNTnoaMm4/0hB5vFYa7vdY_hfA-hRM9Q/view?utm_content=DAFNTnoaMm4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) focuses on the basics of web development. The curriculum is divided into 3 phases:
 
 - [x] Phase 1: HTML & CSS
-- []  Phase 2: JavaScript
-- []  Phase 3: Build projects
+- [ ]  Phase 2: JavaScript
+- [ ]  Phase 3: Build projects
 
 
 ## Phase 1: HTML & CSS
