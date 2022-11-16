@@ -1,0 +1,60 @@
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;   
+    border: 3px dotted black;
+}
+p{
+    font-size: 1rem;
+}
+.box{
+    border: 3px solid;
+    height: 200px;
+    width: 200px;
+}
+.box-one{
+    background-color: red;
+
+}
+.box-two{
+    background-color: orange;
+}
+.box-three{
+    background-color: yellow;
+    
+} 
+.box-four{
+    background-color: green;       
+}
+
+@media screen and (min-width: 800px){
+    body{
+        background-color: blanchedalmond;
+    }
+    .container{
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    body{
+        background-color: rgb(214, 82, 82);
+    }
+    .box-one{
+        background-color: blue;
+    
+    }
+}
+
+.container{
+    flex-direction: column;
+}
+

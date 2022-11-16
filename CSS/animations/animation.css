@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: crimson;
+}
+
+.child{
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+    background-color: gold;
+    /* transition: all 0.7s ease-in-out; */
+    animation: bouncy 2s ease-in-out infinite alternate;
+}
+
+
+.child:hover{
+    animation: bouncy 0.7s ease-in-out infinite alternate;
+}
+
+
+@keyframes bouncy{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(25%);
+    }
+    50%{
+        transform: translateX(50%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}

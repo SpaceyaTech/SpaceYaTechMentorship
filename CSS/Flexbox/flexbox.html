@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Demo Lesson</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .flex-container{
+            display: flex;
+            border: 2px solid black;
+            /* flex-wrap: wrap; */
+            /*Justify-content partains to the main axis*/
+             /* justify-content: center; */
+            /*Align-items partains to the cross axis*/
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+        .box{
+    flex: 1;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.box-one{
+    background-color: teal;
+}
+.box-two{
+    background-color: red;
+    align-self: center;
+    
+}
+.box-three{
+    background-color: palegreen;
+    color: black;
+}
+.box-four{
+    background-color: yellow;
+    color: black;
+}
+
+    </style>
+</head>
+<body>
+<div class="flex-container">
+<div class="box box-one">Box One</div>
+<div class="box box-two">Box Two</div>
+<div class="box box-three">Box Three</div>
+<div class="box box-four">Box Four</div>
+</div>
+</body>
+</html>

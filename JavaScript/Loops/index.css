@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #777;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, minmax(min-content,100px));
+    grid-template-rows: repeat(3, minmax(min-content,100px));
+    gap: 10px;
+    justify-content: center;
+}
+.ball{
+    background-color:rgb(255, 0, 255);
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px grey;
+}
+.animateBall{
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+
+@keyframes bounce {
+    0%{
+      transform: translateY(0);
+    }
+    
+    50%{
+       transform: translateY(-150px);
+       /* transform: translateX(150px);    */
+    }
+}

@@ -48,6 +48,109 @@ CSS selectors are used to "find" (or select) the HTML elements you want to style
 
 - General sibling selector ( h1~p )
 
+
+### Universal Selector
+The universal selector selects all elements in the document.
+
+```css
+* {
+  color: red;
+}
+```
+
+### Type Selector
+The type selector selects elements based on the element name.
+
+```css
+
+p {
+  color: red;
+}
+```
+
+### Class Selector
+The class selector selects elements based on the value of their class attribute. You can specify that an element has a specific class by using the class attribute.
+
+```html
+
+<p class="intro">This is a paragraph.</p>
+
+```
+
+```css
+
+.intro {
+  color: red;
+}
+```
+
+### ID Selector
+The ID selector selects elements based on the value of their id attribute. You can specify that an element has a specific id by using the id attribute.
+
+```html
+
+<p id="introduction">This is a paragraph.</p>
+
+```
+
+```css
+
+#introduction {
+  color: red;
+}
+```
+
+### Descendant Selector
+The descendant selector selects elements that are descendants of a specified element.
+
+```css
+
+p a {
+  color: red;
+}
+```
+
+### Child Selector
+The child selector selects elements that are children of a specified element.
+
+```css
+
+ul > li {
+  color: red;
+}
+```
+
+### Adjacent Sibling Selector
+
+The adjacent sibling selector selects elements that are the next sibling of a specified element.
+
+```css
+
+h1 + p {
+  color: red;
+}
+```
+
+### General Sibling Selector
+The general sibling selector selects elements that are siblings of a specified element.
+
+```css
+
+h1 ~ p {
+  color: red;
+}
+```
+
+### Attribute Selector
+The attribute selector selects elements based on the presence or value of an attribute.
+
+```css
+
+a[target] {
+  color: red;
+}
+```
+
 ## CSS Properties
 
 CSS properties are used to specify the look of HTML elements. For example, to change the color of the text inside an element, you can use the color property. There are hundreds of different CSS properties that allow you to control the color, font, size, spacing, and many other aspects of HTML elements. Here are some of the most common CSS properties:
@@ -89,6 +192,19 @@ Cascading refers to the way in which rules are applied when more than one rule c
 - If two selectors are equally general, the former of the two will take precedence.
 
 - If two rules are equally specific and equally general, the latter of the two will take precedence.
+
+#### How CSS Rules Cascade
+
+When there are two or more rules that apply to the same element, it can be difficult to determine which rule will be applied. This is because the browser will use a set of rules to determine which rule is most specific and therefore will be applied. These rules are known as the CSS Cascade.
+
+
+#### Specificity
+Specificity is used to calculate which style rule should be applied when more than one rule could apply to an element. Specificity is based on the matching selector. The more specific the selector, the higher the specificity.
+
+
+#### Inheritance
+Inheritance is the concept that some CSS properties are inherited by child elements from their parent elements. For example, if you specify a font-family for the body element, all child elements will inherit that font-family unless you specify a different font-family for the child element.
+
 
 ## Responsive Web Design
 

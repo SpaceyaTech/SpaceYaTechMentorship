@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow-y: hidden;
+    
+}
+.droplets{
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    background-color: aqua;
+    margin: 10px;
+    border-bottom-left-radius: 50%; 
+    border-bottom-right-radius: 50%;  
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+   color: white;
+   padding: 10px 20px;
+   background-color: green;
+   font-size: larger;    
+}

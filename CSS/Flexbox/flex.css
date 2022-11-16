@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;   
+    border: 3px dotted black;
+}
+.box{
+    border: 3px solid;
+    height: 200px;
+    width: 200px;
+}
+.box-one{
+    background-color: red;
+
+}
+.box-two{
+    background-color: orange;
+}
+.box-three{
+    background-color: yellow;
+    
+} 
+.box-four{
+    background-color: green;
+        
+}
