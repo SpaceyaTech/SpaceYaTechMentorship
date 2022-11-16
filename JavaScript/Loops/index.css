@@ -9,7 +9,7 @@ body{
 }
 .container{
     display:grid;
-    grid-template-columns: repeat(3, minmax(min-content,100px));
+    grid-template-columns: repeat(4, minmax(min-content,100px));
     grid-template-rows: repeat(3, minmax(min-content,100px));
     gap: 10px;
     justify-content: center;
@@ -19,13 +19,18 @@ body{
     border-radius: 50%;
     box-shadow: 10px 10px 10px grey;
 }
+
+ul{
+    margin-left: 50px;
+    font-size: xx-large;
+}
+
 .animateBall{
     animation-name: bounce;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     animation-duration: 1s;
 }
-
 
 @keyframes bounce {
     0%{

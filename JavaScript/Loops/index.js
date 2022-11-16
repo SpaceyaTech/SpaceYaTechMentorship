@@ -55,19 +55,48 @@ switch (role) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 // Let's create balls using a loop
 
-// Create a function that creates a ball
-function createBall() {
-    let ball;
-    let container = document.querySelector(".container");
-    for(let i =0; i < 20;i++){
-        ball = document.createElement("div");
-        ball.classList.add("ball");
-        container.appendChild(ball);
+// Create a function that creates a circle
+// function createBall() {
+//     let ball;
+//     let container = document.querySelector(".container");
+//     for(let i =0; i < 11;i++){
+//         ball = document.createElement("div");
+//         ball.classList.add("ball");
+//         // ball.classList.add("animateBall")
+//         container.appendChild(ball);
+//     }
+// }
+//  createBall()
+
+
+function createList(){
+    let list = document.querySelector(".list");
+    // let textContent = "Item One" 
+    for(let i = 0; i < 5; i++){
+      let listItem = document.createElement("li");
+      listItem.innerText = "Item One" 
+      list.appendChild(listItem) 
     }
-}
-createBall()
+} 
+
+createList()
+
+
+
 
 
 
