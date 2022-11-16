@@ -1,8 +1,11 @@
+![CSS flex box banner](./assets/1.svg)
 # CSS Flexbox
 ## What is Flexbox?
 Flexbox is a layout mode in CSS3. It is a one-dimensional layout method for laying out items in rows or columns. It is a very powerful layout mode that can be used to create complex layouts with ease. It is also very easy to learn and use.
 The flexbox model is a one dimensional layout that provides a method to offer space distribution and powerful alignment capabilities. 
 Before flexbox, developers used floats and tables to align items. However, floats and tables are not well suited for layout. They are not responsive and they are not flexible. Flexbox is a much better solution for layout.
+
+![flexbox description image](./assets/2.svg)
 
 ## Flex container and flex items
 A flex container is the element that holds flex items. Flex items are direct children of flex containers. A container with display:flex.
@@ -27,6 +30,9 @@ A flex container is the element that holds flex items. Flex items are direct chi
 </html>
 ```
 
+![Main parts of a flexbox](./assets/3.svg)
+
+
 ## Flex container properties
 
 - flex-direction
@@ -44,6 +50,8 @@ A flex container is the element that holds flex items. Flex items are direct chi
 - align-self
 
 
+
+![Cartesian Plane image](./assets/4.svg)
 
 ## Cartesian coordinate system
 The Cartesian coordinate system is a two-dimensional coordinate system that specifies each point uniquely in a plane by a pair of numerical coordinates, which are the signed distances to the point from two fixed perpendicular directed lines, measured in the same unit of length.
@@ -64,6 +72,8 @@ When you set your flex container to flex row, the main axis is the horizontal ax
 
 ## N/B
 A row is left to right and a column is top to bottom.
+
+![Flexbox container image](./assets/5.svg)
 
 ## Flex-container Properties
 ## Justify-content
@@ -97,3 +107,12 @@ The flex-shrink property specifies how the item will shrink relative to the rest
 ## flex-basis
 The flex-basis property specifies the initial length of a flexible item. It sets the size of the content-box unless otherwise set with box-sizing.
 
+![Flexbox item image](./assets/6.svg)
+
+## Resources
+
+- [Flexbox Froggy](https://flexboxfroggy.com/)
+- [Flexbox Defense](http://www.flexboxdefense.com/)
+- [Flexbox Zombies](https://mastery.games/p/flexbox-zombies)
+- [Flexbox Cheatsheet](https://yoksel.github.io/flex-cheatsheet/)
+- [Flexbox in 5 minutes](https://medium.freecodecamp.org/an-animated-guide-to-flexbox-d280cf6afc35)
