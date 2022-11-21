@@ -74,13 +74,28 @@
 // };
 
 
-
-
 for(let i = 1; i <10;i++){
  console.log(i)
 }
 
+// 4. For In Loop
+// The for in loop is used to iterate over the properties of an object.
+// for in loop can be used to iterate over arrays but it is not recommended. It is better to use the for of loop.
 
+let sparky = {
+    name: "Sparky",
+    age: 5,
+    breed: "Pitbull",
+    spayed: false
+}
 
+for (const key in sparky) {
+   console.log(key);    
+}
+
+// For of loop
+// The for of loop is used to iterate over the elements of an array.
+
+let colors = ["red", "green", "blue"];
 
 

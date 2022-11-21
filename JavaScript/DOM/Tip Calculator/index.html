@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./app.css" type="text/css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/logo.svg" alt="logo" />
+      <div class="card-container">
+        <div class="functionality-div">
+          <div class="bill-amount-container">
+            <div>
+              <label for="bill-amount">Bill</label>
+              <span class="error-message"></span>
+            </div>
+            <!-- <img src="./images/icon-dollar.svg" alt="doller sign icon" class="icon"/> -->
+            <input type="text" id="bill-amount" placeholder="0" />
+          </div>
+          <div class="tip-amount-container">
+            <label for="tip-amount">Select Tip %</label>
+            <div class="tip-amount">
+              <div class="tip-amount-btn">
+                <button class="tip-btn" data-percentage="5">5%</button>
+                <button class="tip-btn" data-percentage="10">10%</button>
+                <button class="tip-btn" data-percentage="15">15%</button>
+                <button class="tip-btn" data-percentage="25">25%</button>
+                <button class="tip-btn" data-percentage="50">50%</button>
+                <input type="text" id="custom-tip" placeholder="Custom" />
+              </div>
+            </div>
+          </div>
+          <div class="number-of-people-container">
+            <div>
+              <label for="number-of-people">Number of people</label>
+              <span class="error-message">Can't be empty</span>
+            </div>
+            <!-- <img src="./images/icon-dollar.svg" alt="doller sign icon" class="icon"/> -->
+            <input type="text" id="number-of-people" placeholder="0" />
+          </div>
+        </div>
+        <div class="output-div">
+          <div class="output-tip-amount-container">
+            <div>
+              <label for="tip-amount">Tip Amount</label>
+              
+              <p>/ person</p>
+            </div>
+            <p id="tip-amount">$0.00</p>
+          </div>
+          <div class="total-amount-container">
+            <div>
+              <label for="total-amount">Total</label>
+              <p>/ person</p>
+            </div>
+            <p id="total-amount">$0.00</p>
+          </div>
+          <button class="btn-reset" type="button">RESET</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
