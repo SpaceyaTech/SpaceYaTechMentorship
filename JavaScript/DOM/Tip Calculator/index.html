@@ -14,16 +14,20 @@
     <title>Tip Calculator</title>
   </head>
   <body>
+    <!--Holding the Entire content-->
     <div class="container">
-      <img src="./images/logo.svg" alt="logo" />
+      <img src="./images/logo.svg" alt="logo" class="logo"/>
+       <!--Holding the card content-->
       <div class="card-container">
+        <!--Holding The functionality content: bill amount buttons and the number of people-->
         <div class="functionality-div">
           <div class="bill-amount-container">
+            <!--Holding the label and the error message-->
             <div>
               <label for="bill-amount">Bill</label>
-              <span class="error-message"></span>
+              <span class="error-message">Can't be empty</span>
             </div>
-            <!-- <img src="./images/icon-dollar.svg" alt="doller sign icon" class="icon"/> -->
+            <img src="./images/icon-dollar.svg" alt="doller sign icon" class="icon"/>
             <input type="text" id="bill-amount" placeholder="0" />
           </div>
           <div class="tip-amount-container">
@@ -48,6 +52,7 @@
             <input type="text" id="number-of-people" placeholder="0" />
           </div>
         </div>
+        <!--Holding the output section. Green section-->
         <div class="output-div">
           <div class="output-tip-amount-container">
             <div>
@@ -67,6 +72,7 @@
           <button class="btn-reset" type="button">RESET</button>
         </div>
       </div>
+
     </div>
     <script src="app.js"></script>
   </body>

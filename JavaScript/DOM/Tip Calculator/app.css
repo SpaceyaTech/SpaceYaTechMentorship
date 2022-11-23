@@ -19,15 +19,19 @@ body{
     background-color: var(--Light-grayish-cyan);
     font-family: 'Space Mono', sans-serif;
     overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-img{
+.logo{
     margin: 30px 0;
 }
 .container{
     display: flex;
-    min-height: 100vh;
     flex-direction: column; 
     align-items: center;
+    min-height: 100vh;
 }    
 .card-container{
     background-color: var(--White);
@@ -43,24 +47,19 @@ img{
 .functionality-div{
     display:flex;
     flex-direction: column;
-    gap: 15px;
-    height: min-content;
+    gap: 10px; 
 }
-.bill-amount-container{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
-}
+
 label{
     font-weight: bolder;
     font-size: small;
     color: var(--Dark-grayish-cyan);
 }
 .icon{
-    position: absolute;
-    top: 160px;
-    padding-left: 10px;
+    position: relative;
+    max-width: 15px;
+    top: 40px;
+    left:10px;
 }
 input{
     font-size: var(--font-size-inputs);
@@ -148,21 +147,25 @@ input{
     justify-content: space-between;
 }
 @media screen and (min-width:768px) {
+    .container{
+        display: flex;
+        flex-direction: column; 
+        min-height: 80vh; 
+    }
+
     .card-container{
         background-color: var(--White);
         border-radius: 15px ;
         box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
         padding: 25px;
-        max-width: 768px;
+        max-width: 800px;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         max-height: 400px;
         gap:20px;
     }
-    img{
-        padding-top: 35px;
-    }
+    
      .tip-amount-btn{
         display:grid;
         grid-template-columns:  repeat(3, minmax(0, 1fr));
