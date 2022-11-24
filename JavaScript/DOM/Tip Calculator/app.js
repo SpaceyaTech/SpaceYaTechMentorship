@@ -68,8 +68,9 @@ document.querySelector(".btn-reset").addEventListener("click",()=>{
     document.querySelector('#tip-amount').innerHTML = '$0.00';
     // Change the innerHTML of the total amount
     document.querySelector('#total-amount').innerHTML = '$0.00';
-    document.querySelector('#bill-amount').value = ''
-    document.querySelector('#number-of-people').value = ''
+    document.querySelector('#bill-amount').value = '';
+    document.querySelector('#number-of-people').value = '';
+    document.querySelector('#custom-tip').value = '';
 })
 
 
