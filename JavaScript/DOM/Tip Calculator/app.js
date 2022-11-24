@@ -19,6 +19,9 @@ function validateInput(){
         if(document.querySelector('#number-of-people').classList.contains('input-error')){
             document.querySelector('#number-of-people').classList.remove('input-error');
         }
+        if(document.querySelector('#bill-amount').classList.contains('input-error')){
+            document.querySelector('#bill-amount').classList.remove('input-error');
+        }
         return true;
     } else {
         // This is a ternary operator
@@ -72,6 +75,11 @@ document.querySelector(".btn-reset").addEventListener("click",()=>{
     document.querySelector('#number-of-people').value = '';
     document.querySelector('#custom-tip').value = '';
 })
+
+
+
+
+
 
 
 
