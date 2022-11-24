@@ -15,19 +15,23 @@
   </head>
   <body>
     <!--Holding the Entire content-->
-    <div class="container">
-      <img src="./images/logo.svg" alt="logo" class="logo"/>
-       <!--Holding the card content-->
-      <div class="card-container">
+    <main class="container">
+      <img src="./images/logo.svg" alt="logo" class="logo" />
+      <!--Holding the card content-->
+      <section class="card-container">
         <!--Holding The functionality content: bill amount buttons and the number of people-->
         <div class="functionality-div">
           <div class="bill-amount-container">
             <!--Holding the label and the error message-->
             <div>
               <label for="bill-amount">Bill</label>
-              <span class="error-message">Can't be empty</span>
+              <span class="error-message"></span>
             </div>
-            <img src="./images/icon-dollar.svg" alt="doller sign icon" class="icon"/>
+            <img
+              src="./images/icon-dollar.svg"
+              alt="doller sign icon"
+              class="icon"
+            />
             <input type="text" id="bill-amount" placeholder="0" />
           </div>
           <div class="tip-amount-container">
@@ -46,9 +50,9 @@
           <div class="number-of-people-container">
             <div>
               <label for="number-of-people">Number of people</label>
-              <span class="error-message">Can't be empty</span>
+              <span class="error-message"></span>
             </div>
-            <!-- <img src="./images/icon-dollar.svg" alt="doller sign icon" class="icon"/> -->
+            <img src="./images/icon-person.svg" alt="doller sign icon" class="icon"/>
             <input type="text" id="number-of-people" placeholder="0" />
           </div>
         </div>
@@ -57,7 +61,7 @@
           <div class="output-tip-amount-container">
             <div>
               <label for="tip-amount">Tip Amount</label>
-              
+
               <p>/ person</p>
             </div>
             <p id="tip-amount">$0.00</p>
@@ -71,9 +75,8 @@
           </div>
           <button class="btn-reset" type="button">RESET</button>
         </div>
-      </div>
-
-    </div>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
