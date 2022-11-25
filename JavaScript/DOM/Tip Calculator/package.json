@@ -1,0 +1,15 @@
+{
+  "name": "splitter",
+  "version": "1.0.0",
+  "description": "A tip calculator app",
+  "productName": "Splitter",
+  "main": "main.js",
+  "scripts": {
+    "start":"electron ."
+  },
+  "author": "Ian Mugenya",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^21.3.1"
+  }
+}

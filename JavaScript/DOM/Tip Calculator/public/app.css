@@ -76,7 +76,7 @@ input{
 }
 input:focus{
     
-    outline: 3px solid var(--Light-grayish-cyan);
+    border: 3px solid var(--Light-grayish-cyan);
 }
 .input-error{
     border: 1px solid red;
@@ -87,7 +87,7 @@ input:focus{
     gap: 15px;
     justify-content: center;
     margin-top: 10px;
-    grid-template-rows: repeat(3,40px);
+    grid-template-rows: repeat(3,1fr);
 }
 .tip-btn{
     background-color: var(--Very-dark-cyan);
