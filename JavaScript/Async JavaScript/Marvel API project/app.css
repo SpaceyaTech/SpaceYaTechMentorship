@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: comicaFont;
+    src: url(./assets/fonts/Comica\ BD.ttf)
+}
+@font-face {
+    font-family: comicaRegular;
+    src: url(./assets/fonts/ComicaRegular.otf);
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+background-color: black;
+transition: all ease-in-out 3s;
+color: white;
+}
+h1, h2{
+    font-family: comicaFont;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+.container{
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.logo{
+    background: red;
+    height: fit-content;
+    width: 100%;
+    padding: 5px;
+    font-size: 2rem;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: comicaRegular;
+}
+
+.submit-btn {
+    height: 30px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    background-color: red;
+    transition: transform .3s ease-in;
+    font-family: comicaRegular;
+}
+
+.submit-btn:hover {
+    transform: scale(1.1);
+}
+.info-header {
+  justify-self:center;
+  margin-top: 5rem;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5px;   
+}
+
+.character-information{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.character-name{
+    font-size: 4rem;
+}
+.character-description{
+    font-family: comicaRegular;
+    font-size: 1.2rem;
+}
+@media screen and (min-width: 950px){
+    .container{
+        max-width: 90%;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        background: red;
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        font-size: 2rem;
+    }
+    .input-container {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .input {
+        height: 40px;
+        width: fit-content;
+        border-radius: 5px;
+        padding: 5px 20px;
+        font-size: 1.2rem;
+        font-family: comicaRegular;
+    }
+    .submit-btn {
+        height: 30px;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+        width: 100%;
+        background-color: red;
+        font-size: 1.2rem;
+        transition: transform .3s ease-in;
+        font-family: comicaRegular;
+    }
+    .hero{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-height: 50vh;
+        
+    }
+    .character-information{
+        align-self: center;
+        max-width: 50rem;
+    }
+    .character-name{
+        font-size: 5rem;
+    }
+    .character-description{
+        font-size: 1.4rem;
+    }
+    .hero-image{
+        object-fit: contain;
+        height: 100%;
+    }
+
+}
+/* .hero{
+    max-height: 60vh;
+    padding: 25px;
+    background-position: left;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2,minmax(300px,1fr));
+    grid-template-rows: minmax(300px,1fr);
+    gap: 50px; 
+}
+.info-header{
+    font-size: 3rem;
+    text-align: center;
+    color: red;
+    margin: auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 3rem;
+    color: white;
+    text-align: justify;
+    min-height: 25rem;
+}
+#name{
+    color: hsla(0, 83%, 50%, 0.685);
+}
+.card > h2{
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+}
+.card > p{
+    font-size: 1.5rem;
+    font-family: comicaRegular;
+    line-height: 2.5rem;
+}
+.image-container{
+    min-height: 30rem;
+    border: none;
+}
+.contain{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2%;
+}
+h2{
+    font-size: 2.5rem;
+}
+.comics{
+    display: hidden;
+    grid-template-columns: repeat(3,464px);
+    grid-template-rows: repeat(4,261px);
+    gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    min-height: 30vh;
+    margin-top: 50px;
+    
+}
+@media screen and (max-width: 800px) {
+    .hero{
+        max-height: 60vh;
+        padding: 25px;
+        background-position: left;
+        background-size: cover;
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: minmax(300px,1fr);
+        gap: 30px; 
+    }
+    .comics{
+        display: hidden;
+        grid-template-columns: repeat(2,464px);
+        grid-template-rows: repeat(4,261px);
+        gap: 15px;
+        justify-content: center;
+        min-height: 30vh;
+        margin-top: 50px;
+        
+    }
+    .card > p{
+        font-size: 1rem;
+        
+    }   
+}
+@media screen and (max-width: 500px) {
+    .comics{
+        display: hidden;
+        grid-template-columns: repeat(1,464px);
+        grid-template-rows: repeat(12,261px);
+        gap: 15px;
+        justify-content: center;
+       
+        margin-top: 50px;
+        
+    }   
+} */
