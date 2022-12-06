@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/app.css" type="text/css"/>
+    <title>Expense Chart Component | FrontEnd Mentor</title>
+</head>
+<body>
+    <main>
+       <header>
+        <section class="balance-section">
+            <p>My Balance</p>
+            <h1>$921.48</h1>
+        </section>
+        <img src="./assets/images/logo.svg" alt="logo image" class="logo-image"/>
+       </header>
+       <article>
+         <h2>Spending- Last 7 days</h2>
+         <!--Chart Section-->
+         <canvas id="chart-section">
+             
+         </canvas>
+         <hr/>
+         <section class="totals">
+            <p>Total this month</p>
+            <div>
+                <h3>$478.33</h3>
+                <div class="percentage-div">
+                  <h4>+2.4%</h4>
+                  <p>from last month</p>
+                </div>
+            </div>
+         </section>
+       </article>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
+    <script src="./js/app.js" type="module"></script>
+</body>
+</html>
