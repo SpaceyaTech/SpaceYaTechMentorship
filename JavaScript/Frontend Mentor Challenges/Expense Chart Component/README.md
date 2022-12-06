@@ -40,8 +40,8 @@ Desktop Screenshot
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/IanMcbull/frontend-mentor-expense-chart)
-- Live Site URL: [Add live site URL here](https://expense-chart-component-fem.netlify.app/)
+- Solution URL: [Github Link](https://github.com/IanMcbull/frontend-mentor-expense-chart)
+- Live Site URL: [Live Link](https://expense-chart-component-fem.netlify.app/)
 
 ## My process
 
