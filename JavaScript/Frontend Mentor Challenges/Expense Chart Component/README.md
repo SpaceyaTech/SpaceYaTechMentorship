@@ -10,11 +10,9 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -63,8 +61,8 @@ I feel like i can work on making my css less verbose and adopt more CSS3 syntax.
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/@ChartJS-tutorials) - The ChartJS tutorial youtube channel was very useful when it came to styling the chart.
-- [Example resource 2](https://www.chartjs.org/docs/latest/) - The ChartJS documentation also came in handy.
+- [ChartJS Tutorial Youtube Channel](https://www.youtube.com/@ChartJS-tutorials) - The ChartJS tutorial youtube channel was very useful when it came to styling the chart.
+- [ChartJS Documentation](https://www.chartjs.org/docs/latest/) - The ChartJS documentation also came in handy.
 
 
 ## Author
