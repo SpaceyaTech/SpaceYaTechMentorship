@@ -67,7 +67,7 @@ I feel like i can work on making my css less verbose and adopt more CSS3 syntax.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Ian Mugenya](https://ianmugenya.netlify.app/)
 - Frontend Mentor - [@IanMcbull](https://www.frontendmentor.io/profile/IanMcbull)
 - Twitter - [@Mcbooll](https://twitter.com/McBooll)
 
