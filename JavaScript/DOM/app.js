@@ -1,8 +1,8 @@
 
-
-
-document.querySelector('.listOne')
-
+// window.addEventListener('DOMContentLoaded',()=>{
+//     console.log(document.querySelector('.listOne'))
+// })
+console.log(document.getElementsByClassName("btn"))
 document.querySelector(".btn").addEventListener('click',function(){
     // Lets create a new element
     let newBall = document.createElement("div");
@@ -11,9 +11,9 @@ document.querySelector(".btn").addEventListener('click',function(){
     newBall.classList.add("ball");
     newBall.classList.add("animateBall")
     btn.classList.add("btnJs")
-    btn.innerHTML ="This Button is now active"
+    btn.innerText ="The button is now active"
     // Lets add it to the body
-    document.querySelector(".ball-container").appendChild(newBall);
+    document.querySelector(".ball-container").app(newBall);
     // Lets add an event listener to it
 })
 

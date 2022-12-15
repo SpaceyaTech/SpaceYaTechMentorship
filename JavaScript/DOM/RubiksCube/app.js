@@ -8,23 +8,49 @@ function generateRandomColor() {
   let green = Math.ceil(Math.random() * 255);
 
   let blue = Math.ceil(Math.random() * 255);
-
-  return `rgba(${red}, ${green}, ${blue},${Math.ceil(Math.random())})`;
+  return `rgba(${red}, ${green}, ${blue},${(Math.random().toFixed(1))})`;
 }
 let button = document.querySelector("button");
-
 let x;
-button.addEventListener("click", function () {
-  const boxes = Array.from(document.querySelectorAll(".box"));
-  x = setInterval(() => {
+const handleClick = function () {
+  const boxes = document.querySelectorAll(".box");
+ x = setInterval(() => {
     boxes.forEach((box, index) => {
       box.style.backgroundColor = generateRandomColor();
       box.style.borderRadius = `${Math.ceil(Math.random() * 100)}%`;
     });
-  }, 1100);
+  }, 
+  1000)
+  setTimeout(()=>{
+    clearInterval(x)
+  },10000)
+}
+button.addEventListener("click", handleClick);
   
-});
 
-button.addEventListener("dblclick", function () {
- window.clearInterval();
-});
+// setTimeout(()=>{
+//   console.log('Running')
+//   clearInterval(x)
+// },7000)
+
+
+
+
+// Calls the callback function once after x amount of time has passed
+// setTimeout(()=>{
+//  console.log('Called by setTimeout')
+// },5000)
+
+
+// // setinterval will keep calling
+// setInterval(()=>{
+//   console.log('Called by setInterval')
+//  },5000)
+
+
+
+
+
+
+
+
