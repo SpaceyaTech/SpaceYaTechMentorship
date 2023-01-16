@@ -1,10 +1,12 @@
 import data from "../assets/data/data.json" assert {type: 'json'};
-const toolTipTitle = (item) =>{
+const toolTipTitle = (item) =>{    
     return ''
 }
 const labelToolTip = (item) =>{
     return `$${item.raw}`
 }
+
+
 const ctx = document.getElementById('chart-section');
 new Chart(ctx, {
   type: 'bar',
@@ -12,7 +14,7 @@ new Chart(ctx, {
     labels: data.map(info=>info.day),
     datasets: [{
       data: data.map(info=>info.amount),
-      backgroundColor:data.map((info,index)=>index === 2 ?'#76b5bc':'#ec775f')     
+      backgroundColor:data.map(info=>info.day === 'wed' ?'#76b5bc':'#ec775f')     
     }]
   },
   options: {
@@ -40,7 +42,7 @@ new Chart(ctx, {
            },
       }
     },
-    maintainAspectRatio: true,
+    
     plugins:{
         legend:{
             display:false

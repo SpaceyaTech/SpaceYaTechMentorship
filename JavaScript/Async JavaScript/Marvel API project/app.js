@@ -1,4 +1,3 @@
-
 const marvelApi = (e)=>{
   e.preventDefault();
   // Get the character name
@@ -8,7 +7,7 @@ const marvelApi = (e)=>{
     document.querySelector('.info-header') ? document.querySelector('.info-header').remove(): '' 
     fetch(`https://gateway.marvel.com/v1/public/characters?name=${characterName}&apikey=${process.env.marvelKey}`)
     .then((res)=>res.json())
-    .then(async data=>{
+    .then(async datsupera=>{
       const results = data.data.results[0]
       if(data.data.results.length > 0){
         //  comics(results.id)
