@@ -1,32 +1,57 @@
-// console.log('Hello')
-// console.log(this)
+console.log(this) // this will be set to the window object
 
 
-// function whatIsThis(){
-//   return this
-// }
-// Calling on the global scope
-//whatIsThis()
+function whatIsThis(){
+  return this
+}
 
-// const whatIsThisObject = {
-//     propOne:'This is prop one',
-//     funcProp:whatIsThis
-// } 
+//Calling on the global scope
+whatIsThis()
 
-// console.log(whatIsThisObject.funcProp())
+const whatIsThisObject = {
+    propOne:'This is prop one',
+    funcProp:whatIsThis
+} 
 
-// const sayingHello = function(){
-//     return `Hello ${this.firstName} ${this.lastName}`  
-//   }
+console.log(whatIsThisObject.funcProp())
 
-// const human = {
-//     firstName:'Jake',
-//     lastName:'Smith',
-//     sayHello: sayingHello
-// }
+const sayingHello = function(){
+    return `Hello ${this.firstName} ${this.lastName}`  
+  }
 
-// console.log(sayingHello())
-// console.log(human.sayHello())
+const jake = {
+    firstName:'Jake',
+    lastName:'Smith',
+    sayHello: sayingHello
+}
+
+console.log(sayingHello())
+console.log(jake.sayHello())
+
+// Setting our own this using call() and apply() functions
+
+// call
+// the call function takes in two arguments, the value of `this` and any arguments the function takes
+// Let's invoke the sayingHello function on another object.
+
+let pennyLittle ={
+    firstName:'Penny',
+    lastName:'Little'
+}
+
+console.log(sayingHello.call(pennyLittle))
+
+// apply
+// the apply function takes in two arguments, the value of `    this` and any arguments the function takes as an array
+// Let's use the previous example but this time let's use apply instead of call.
+
+let pennyDreadful ={
+    firstName:'Penny',
+    lastName:'Dreadful'
+}
+
+console.log(sayingHello.apply(pennyDreadful))
+
 
 
 // Constructors

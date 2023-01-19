@@ -61,6 +61,52 @@ planet.whatIsThis() // What is the value of this
 
 ```
 
+## Setting our own `this` using `call()`, `apply()` and `bind()`
+
+
+The call and apply are called on the function we want to invoke.
+
+```js
+function callMeMaybe(){
+    return "So call me maybe"
+}
+
+
+// Normal invocation
+callMeMaybe()
+
+// Calling using the call() function
+// The arguments are passed in as comma separated values
+CallMeMaybe.call(window,arg1,arg2)
+
+
+```
+
+The call method will invoke the function in the scope of the first argument.
+
+
+The apply method works the same. The only difference being how we pass in the arguments
+
+```js
+function callMeMaybe(){
+    return "So call me maybe"
+}
+
+
+// Normal invocation
+callMeMaybe()
+
+// Calling using the apply() function
+// The arguments are the same as an array of arguments
+CallMeMaybe.apply(window,[arg1,arg2])
+
+
+```
+
+### So when should you choose one over the other.
+
+The call method is limited in terms of arguments. it will always take the same number of arguments. This means you will need to know ahead of time how many arguments the function takes. This is now always the case. In this scenario the apply method would be a better option as you can simply spread out the arguments.
+
 
 
 
@@ -84,5 +130,38 @@ const jupiter = {
     }
 
 }
+
+```
+
+You can see how this can get tedious if we try to create every planet using the object literal notation. What we can do instead is create a constructor functiin that will be responsible for creating the objects for us.
+
+
+```js
+
+function Planets(terrestrial,gaseous,name){
+  this.terrestrial = terrrestrial;
+  this.gaseous = gaseous;
+  this.name = name;
+  this.description = function(){
+    if(this.terrestrial){
+          return `Planet ${this.name} is a terrestrial planet`
+        }else if(this.gaseous){
+            return `Planet ${this.name} is a gaseous planet`
+        }else{
+            return `Planet ${this.name} is neither a gaseous nor a gaseous terrestrial planet`
+        }
+  }
+}
+
+```
+
+
+We can now use the `Planet` constructor to create new planet objects.
+
+
+```js
+
+const jupiter = new Planet(false,true,"Jupiter")
+
 
 ```
