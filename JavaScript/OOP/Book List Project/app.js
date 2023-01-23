@@ -57,8 +57,9 @@ UIController.prototype.alerts = function(alertType){
 
 UIController.prototype.deleteBook = function(target){
   if(target.classList.contains('delete')){
-
+   const ui = new UIController();
    target.parentElement.parentElement.remove()
+   ui.alerts('delete');
   }
 }
 
@@ -101,6 +102,5 @@ formElement.addEventListener('submit',function(e){
 tableBody.addEventListener('click', function(e){
  const ui = new UIController();
  ui.deleteBook(e.target);
- ui.alerts('delete');
  e.preventDefault();
 })
