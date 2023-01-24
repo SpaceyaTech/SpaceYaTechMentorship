@@ -1,6 +1,6 @@
 const tableBody = document.querySelector("#table-body");
 const formElement = document.querySelector("#form");
-
+const genBtn = document.querySelector("#genBtn")
 class Book {
   constructor(title, author, isbn) {
     this.title = title;
@@ -27,8 +27,6 @@ class UIController {
     } else {
       const setBooks = await localforage.setItem("books", [book]);
       booksStorage = await localforage.getItem("books");
-      console.log("New book record Created");
-      console.log(booksStorage);
     }
   }
   alerts(alertType) {
@@ -57,7 +55,6 @@ class UIController {
       let booksStorage = await localforage.getItem("books");
       const filterValue = target.parentElement.parentElement.firstChild.textContent;
       const newArr =  booksStorage.filter((book) => book.title !== filterValue);
-      console.log(newArr)
       await localforage.setItem(
         "books",
          newArr
@@ -105,6 +102,7 @@ async function clearLocal() {
   }
 }
 
+
 window.onload = async function () {
   let booksStorage = await localforage.getItem("books");
   booksStorage.forEach(function(book) {
@@ -115,3 +113,9 @@ window.onload = async function () {
                                `;
   });
 };
+
+
+
+
+
+
