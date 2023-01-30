@@ -93,9 +93,9 @@ The mentees will be expected to build the [Advice Generator App](https://www.fro
 ![Advice Generator App landing page](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/syo43ktrlu3huqaqye2c.jpg)
 
 ## Week 3
-The mentees will be expected to build the [Space tourism multipage website](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3) challenge from [FrontEnd Mentor](https://www.frontendmentor.io/home).
+The mentees will be expected to build the [Interactive rating component](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI) challenge from [FrontEnd Mentor](https://www.frontendmentor.io/home).
 
-![Space tourism multipage landing page](https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto:good,w_900/Challenges/wudjsbv8g93aarlhvbud.jpg)
+![Interactive rating component](https://res.cloudinary.com/dz209s6jk/image/upload/v1647605683/Challenges/mow7ca07z3qa0ffbwc2p.jpg)
 
 
 
