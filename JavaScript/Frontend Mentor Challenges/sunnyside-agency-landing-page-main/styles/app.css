@@ -1,0 +1,289 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  :root{
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
+    --Darkblue-photography-text: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan-footer: hsl(168, 34%, 41%);
+    --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --dark-grayish-blue: hsl(232, 10%, 55%);
+    --grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --footer-bg-cyan:#90D4C5;
+    --footer-logo-color:#2C7363;
+    --ff-size: 18px;
+    --ff-family-barlow: 'Barlow', sans-serif;
+    --ff-family-fraunces:'Fraunces', serif;
+    --ff-weight-medium:600;
+    --ff-weight-bold:700;
+    --ff-weight-bolder:900;
+    --border-radius-full:50%;
+  }
+
+.flex{
+  display: flex;
+}
+.flex-direction-row{
+  flex-direction: row;
+}
+.flex-direction-col{
+  flex-direction: column;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.align-items-center{
+  align-items: center;
+}
+.rounded-full{
+  border-radius: var(--border-radius-full);
+}
+.testimonial-img-dimensions{
+  height: 5.5rem;
+  width: 5.5rem;
+}
+  header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(../images/mobile/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+    font-family: var(--ff-family-fraunces);
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6em;
+  }
+  nav > a >img{
+    width: 10rem;
+  }
+  #mobile-menu, #desktop-menu{
+    display: flex;
+  }
+  #mobile-menu{
+    flex-direction: column;
+    position: relative;
+  }
+  #mobile-menu > img{
+     width: 2rem;
+  }
+  #menu{
+      position: absolute;
+      top: 3rem;
+      right: 3rem;
+      border: 3px solid red;
+  }
+  #menu > ul {
+    list-style: none;
+    
+  }
+  .hidden{
+    display: none;
+  }
+  header > article{
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:5rem
+  }
+  article > img{
+    height: 12rem;
+  }
+  h1{
+    font-size: 3.5em;
+    color: var(--White);
+    max-width: 14ch;
+    text-align: center;
+    letter-spacing: .4rem;
+    font-weight: var(--ff-weight-bolder);
+  }
+  #desktop-menu{
+    display: none;
+    list-style: none;
+  }
+  #transform-section{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  article > h2{
+    font-family: var(--ff-family-fraunces);
+    font-size: 2.4rem;
+    line-height: 50px;
+    font-weight: var(--ff-weight-bolder);
+  }
+  article > p{
+    font-size: 18px;
+    font-family: var(--ff-family-barlow);
+    color: var(--dark-grayish-blue);
+    line-height: 40px;
+    max-width: 30rem;
+  }
+  article > a {
+    font-family: var(--ff-family-fraunces);
+    font-weight: var(--ff-weight-bolder);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: black;
+    text-decoration-thickness: 8px;
+  }
+  #transform-article, #standout-article{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  #transform-article > a{
+    text-decoration-color: var(--yellow);
+  }
+  #standout-article > a {
+    text-decoration-color: var(--soft-red);
+  }
+  #work{
+    display: grid;
+  }
+  #testimonials > article{
+    gap: 2rem;
+  }
+  #testimonials{
+    padding: 4rem;
+    gap: 5rem;
+  }
+  #testimonials > h2{
+    text-align: center;
+    color: var(--footer-logo-color);
+    font-family: var(--ff-family-fraunces);
+    text-transform: uppercase;
+    font-size: 1rem;
+    max-width: 30ch;
+    font-weight: var(--ff-weight-bold);
+    letter-spacing: .4rem;
+  }
+  #testimonials > article > p{
+    text-align: center;
+    min-width: 20rem;
+    font-family: var(--ff-family-barlow);
+    font-weight: var(--ff-weight-bolder);
+    color: var(--very-dark-grayish-blue);
+  }
+  .testimonial-title{
+    font-family: var(--ff-family-barlow);
+    color: var(--dark-grayish-blue);
+  }
+  .testimonial-name{
+    font-family: var(--ff-family-fraunces);
+    font-size: 1.4rem;
+    font-weight: var(--ff-weight-bolder);
+  } 
+  /* .testimonial-footer > p{
+    font-weight: var(--ff-weight-bold);
+    border:2px solid;
+  } */
+  #gallery{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+  }
+  footer{
+    background-color: var(--footer-bg-cyan);
+    padding: 5rem 2rem;
+    gap: 5rem;
+  }
+  footer > h2{
+    font-family: var(--ff-family-fraunces);
+    font-weight: var(--ff-weight-bolder);
+    color: var(--footer-logo-color);
+    font-size: 2.3rem; 
+  }
+  footer > ul{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    font-family: var(--ff-family-barlow);
+    color: var(--Dark-moderate-cyan-footer);
+    font-weight: var(--ff-weight-bolder);
+    font-size: 1.2rem;
+  }
+  footer > div{
+    gap: 2rem;
+  }
+  @media (width > 40.625em){
+     #mobile-menu{
+        display: none;
+     }
+     #desktop-menu{
+        gap: 3em;
+     }
+     header{
+        background-image: url(../images/desktop/image-header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #work{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+  }

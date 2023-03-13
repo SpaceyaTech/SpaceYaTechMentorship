@@ -1,0 +1,13 @@
+{
+  "name": "the-event-loop",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Javascript is executed on a single thread. Meaning everything is run line by line. From top to bottom. But what if one of the operations running takes a long time to execute.What happens to the code that is supposed to run after the long running process.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ian",
+  "license": "ISC"
+}
